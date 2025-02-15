@@ -1,12 +1,13 @@
+import Id from './Id';
 
 function App() {
+    return (
+        <div className="App">
+            <Id name="John Doe" />
+            <Id />
 
- 
-  return (
-    <>
-     
-    </>
-  )
+        </div>
+    );
 }
 
-export default App
+export default App;
